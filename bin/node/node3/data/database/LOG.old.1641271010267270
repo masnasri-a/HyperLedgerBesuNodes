@@ -1,0 +1,104 @@
+2022/01/04-11:36:42.669890 7f03fbfef640 RocksDB version: 6.15.2
+2022/01/04-11:36:42.669958 7f03fbfef640 Git sha rocksdb_build_git_sha:
+2022/01/04-11:36:42.669963 7f03fbfef640 Compile date Jan  4 2021
+2022/01/04-11:36:42.670060 7f03fbfef640 DB SUMMARY
+2022/01/04-11:36:42.670064 7f03fbfef640 DB Session ID:  9ELWLJOUEL3V3JAWHM2W
+2022/01/04-11:36:42.670133 7f03fbfef640 CURRENT file:  CURRENT
+2022/01/04-11:36:42.670136 7f03fbfef640 IDENTITY file:  IDENTITY
+2022/01/04-11:36:42.670142 7f03fbfef640 MANIFEST file:  MANIFEST-000077 size: 972 Bytes
+2022/01/04-11:36:42.670145 7f03fbfef640 SST files in /home/nasri/Project/besu/bin/node/node3/data/database dir, Total Num: 4, files: 000023.sst 000036.sst 000073.sst 000076.sst 
+2022/01/04-11:36:42.670147 7f03fbfef640 Write Ahead Log file in /home/nasri/Project/besu/bin/node/node3/data/database: 000078.log size: 100094 ; 
+2022/01/04-11:36:42.670152 7f03fbfef640                         Options.error_if_exists: 0
+2022/01/04-11:36:42.670154 7f03fbfef640                       Options.create_if_missing: 1
+2022/01/04-11:36:42.670156 7f03fbfef640                         Options.paranoid_checks: 1
+2022/01/04-11:36:42.670157 7f03fbfef640                               Options.track_and_verify_wals_in_manifest: 0
+2022/01/04-11:36:42.670159 7f03fbfef640                                     Options.env: 0x7f038612f3c0
+2022/01/04-11:36:42.670160 7f03fbfef640                                      Options.fs: Posix File System
+2022/01/04-11:36:42.670162 7f03fbfef640                                Options.info_log: 0x7f03f57aa400
+2022/01/04-11:36:42.670163 7f03fbfef640                Options.max_file_opening_threads: 16
+2022/01/04-11:36:42.670165 7f03fbfef640                              Options.statistics: 0x7f03f5737280
+2022/01/04-11:36:42.670166 7f03fbfef640                               Options.use_fsync: 0
+2022/01/04-11:36:42.670168 7f03fbfef640                       Options.max_log_file_size: 0
+2022/01/04-11:36:42.670169 7f03fbfef640                  Options.max_manifest_file_size: 1073741824
+2022/01/04-11:36:42.670170 7f03fbfef640                   Options.log_file_time_to_roll: 0
+2022/01/04-11:36:42.670172 7f03fbfef640                       Options.keep_log_file_num: 1000
+2022/01/04-11:36:42.670173 7f03fbfef640                    Options.recycle_log_file_num: 0
+2022/01/04-11:36:42.670175 7f03fbfef640                         Options.allow_fallocate: 1
+2022/01/04-11:36:42.670176 7f03fbfef640                        Options.allow_mmap_reads: 0
+2022/01/04-11:36:42.670178 7f03fbfef640                       Options.allow_mmap_writes: 0
+2022/01/04-11:36:42.670179 7f03fbfef640                        Options.use_direct_reads: 0
+2022/01/04-11:36:42.670181 7f03fbfef640                        Options.use_direct_io_for_flush_and_compaction: 0
+2022/01/04-11:36:42.670182 7f03fbfef640          Options.create_missing_column_families: 1
+2022/01/04-11:36:42.670183 7f03fbfef640                              Options.db_log_dir: 
+2022/01/04-11:36:42.670185 7f03fbfef640                                 Options.wal_dir: /home/nasri/Project/besu/bin/node/node3/data/database
+2022/01/04-11:36:42.670187 7f03fbfef640                Options.table_cache_numshardbits: 6
+2022/01/04-11:36:42.670188 7f03fbfef640                         Options.WAL_ttl_seconds: 0
+2022/01/04-11:36:42.670189 7f03fbfef640                       Options.WAL_size_limit_MB: 0
+2022/01/04-11:36:42.670190 7f03fbfef640                        Options.max_write_batch_group_size_bytes: 1048576
+2022/01/04-11:36:42.670192 7f03fbfef640             Options.manifest_preallocation_size: 4194304
+2022/01/04-11:36:42.670193 7f03fbfef640                     Options.is_fd_close_on_exec: 1
+2022/01/04-11:36:42.670194 7f03fbfef640                   Options.advise_random_on_open: 1
+2022/01/04-11:36:42.670195 7f03fbfef640                    Options.db_write_buffer_size: 0
+2022/01/04-11:36:42.670197 7f03fbfef640                    Options.write_buffer_manager: 0x7f03f57b3a50
+2022/01/04-11:36:42.670198 7f03fbfef640         Options.access_hint_on_compaction_start: 1
+2022/01/04-11:36:42.670200 7f03fbfef640  Options.new_table_reader_for_compaction_inputs: 0
+2022/01/04-11:36:42.670219 7f03fbfef640           Options.random_access_max_buffer_size: 1048576
+2022/01/04-11:36:42.670222 7f03fbfef640                      Options.use_adaptive_mutex: 0
+2022/01/04-11:36:42.670223 7f03fbfef640                            Options.rate_limiter: (nil)
+2022/01/04-11:36:42.670227 7f03fbfef640     Options.sst_file_manager.rate_bytes_per_sec: 0
+2022/01/04-11:36:42.670229 7f03fbfef640                       Options.wal_recovery_mode: 2
+2022/01/04-11:36:42.670230 7f03fbfef640                  Options.enable_thread_tracking: 0
+2022/01/04-11:36:42.670232 7f03fbfef640                  Options.enable_pipelined_write: 0
+2022/01/04-11:36:42.670234 7f03fbfef640                  Options.unordered_write: 0
+2022/01/04-11:36:42.670235 7f03fbfef640         Options.allow_concurrent_memtable_write: 1
+2022/01/04-11:36:42.670236 7f03fbfef640      Options.enable_write_thread_adaptive_yield: 1
+2022/01/04-11:36:42.670238 7f03fbfef640             Options.write_thread_max_yield_usec: 100
+2022/01/04-11:36:42.670239 7f03fbfef640            Options.write_thread_slow_yield_usec: 3
+2022/01/04-11:36:42.670240 7f03fbfef640                               Options.row_cache: None
+2022/01/04-11:36:42.670242 7f03fbfef640                              Options.wal_filter: None
+2022/01/04-11:36:42.670244 7f03fbfef640             Options.avoid_flush_during_recovery: 0
+2022/01/04-11:36:42.670245 7f03fbfef640             Options.allow_ingest_behind: 0
+2022/01/04-11:36:42.670247 7f03fbfef640             Options.preserve_deletes: 0
+2022/01/04-11:36:42.670248 7f03fbfef640             Options.two_write_queues: 0
+2022/01/04-11:36:42.670250 7f03fbfef640             Options.manual_wal_flush: 0
+2022/01/04-11:36:42.670251 7f03fbfef640             Options.atomic_flush: 0
+2022/01/04-11:36:42.670252 7f03fbfef640             Options.avoid_unnecessary_blocking_io: 0
+2022/01/04-11:36:42.670253 7f03fbfef640                 Options.persist_stats_to_disk: 0
+2022/01/04-11:36:42.670255 7f03fbfef640                 Options.write_dbid_to_manifest: 0
+2022/01/04-11:36:42.670256 7f03fbfef640                 Options.log_readahead_size: 0
+2022/01/04-11:36:42.670257 7f03fbfef640                 Options.file_checksum_gen_factory: Unknown
+2022/01/04-11:36:42.670260 7f03fbfef640                 Options.best_efforts_recovery: 0
+2022/01/04-11:36:42.670261 7f03fbfef640                Options.max_bgerror_resume_count: 2147483647
+2022/01/04-11:36:42.670262 7f03fbfef640            Options.bgerror_resume_retry_interval: 1000000
+2022/01/04-11:36:42.670263 7f03fbfef640             Options.allow_data_in_errors: 0
+2022/01/04-11:36:42.670264 7f03fbfef640             Options.db_host_id: __hostname__
+2022/01/04-11:36:42.670267 7f03fbfef640             Options.max_background_jobs: 2
+2022/01/04-11:36:42.670269 7f03fbfef640             Options.max_background_compactions: 4
+2022/01/04-11:36:42.670271 7f03fbfef640             Options.max_subcompactions: 1
+2022/01/04-11:36:42.670272 7f03fbfef640             Options.avoid_flush_during_shutdown: 0
+2022/01/04-11:36:42.670273 7f03fbfef640           Options.writable_file_max_buffer_size: 1048576
+2022/01/04-11:36:42.670275 7f03fbfef640             Options.delayed_write_rate : 16777216
+2022/01/04-11:36:42.670276 7f03fbfef640             Options.max_total_wal_size: 0
+2022/01/04-11:36:42.670277 7f03fbfef640             Options.delete_obsolete_files_period_micros: 21600000000
+2022/01/04-11:36:42.670279 7f03fbfef640                   Options.stats_dump_period_sec: 600
+2022/01/04-11:36:42.670281 7f03fbfef640                 Options.stats_persist_period_sec: 600
+2022/01/04-11:36:42.670282 7f03fbfef640                 Options.stats_history_buffer_size: 1048576
+2022/01/04-11:36:42.670283 7f03fbfef640                          Options.max_open_files: 1024
+2022/01/04-11:36:42.670285 7f03fbfef640                          Options.bytes_per_sync: 0
+2022/01/04-11:36:42.670286 7f03fbfef640                      Options.wal_bytes_per_sync: 0
+2022/01/04-11:36:42.670287 7f03fbfef640                   Options.strict_bytes_per_sync: 0
+2022/01/04-11:36:42.670289 7f03fbfef640       Options.compaction_readahead_size: 0
+2022/01/04-11:36:42.670299 7f03fbfef640                  Options.max_background_flushes: -1
+2022/01/04-11:36:42.670301 7f03fbfef640 Compression algorithms supported:
+2022/01/04-11:36:42.670303 7f03fbfef640 	kZSTDNotFinalCompression supported: 1
+2022/01/04-11:36:42.670312 7f03fbfef640 	kZSTD supported: 1
+2022/01/04-11:36:42.670314 7f03fbfef640 	kXpressCompression supported: 0
+2022/01/04-11:36:42.670315 7f03fbfef640 	kLZ4HCCompression supported: 1
+2022/01/04-11:36:42.670317 7f03fbfef640 	kLZ4Compression supported: 1
+2022/01/04-11:36:42.670318 7f03fbfef640 	kBZip2Compression supported: 1
+2022/01/04-11:36:42.670320 7f03fbfef640 	kZlibCompression supported: 1
+2022/01/04-11:36:42.670321 7f03fbfef640 	kSnappyCompression supported: 1
+2022/01/04-11:36:42.670328 7f03fbfef640 Fast CRC32 supported: Not supported on x86
+2022/01/04-11:36:42.670416 7f03fbfef640 [WARN] [/db_impl/db_impl_open.cc:1787] Persisting Option File error: OK
+2022/01/04-11:36:42.670438 7f03fbfef640 [/db_impl/db_impl.cc:447] Shutdown: canceling all background work
+2022/01/04-11:36:42.670496 7f03fbfef640 [/db_impl/db_impl.cc:625] Shutdown complete
